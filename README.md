@@ -3,9 +3,9 @@
 need to install package json-server
 npm install --save-dev json-server
 
-then add following two command in package.json scripts section:
-    "prestart:api": "node tools/createMockDb.js",
-    "start:api": "node tools/apiServer.js"
+### then add following two command in package.json scripts section:
+   ''' "prestart:api": "node tools/createMockDb.js",
+    "start:api": "node tools/apiServer.js"'''
 
 copy and paste tools folder and api folder to your project "/src" folder
 
